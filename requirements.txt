@@ -6,4 +6,3 @@ xgboost: 3.2.0
 shap: 0.51.0
 statsmodels: 0.14.6
 joblib: 1.5.3
-clust-learn: 1.8.0
