@@ -142,7 +142,7 @@ if st.button("预测"):
     st.subheader("预测结果")
     risk_label = "高风险" if predicted_class == 1 else "低风险" 
     st.write(f'**风险等级：{predicted_class}({risk_label})**')
-    st.write(f'**风险概率，**低风险概率{predicted_proba[0]:,2%}|高风险概率{predicted_proba[1]:,2%}')
+    st.write(f'**风险概率，**低风险概率{predicted_proba[0]:,2%}|高风险概率{predicted_proba[1]:.2%}')
     
     # 生成个性化建议
     st.subheader("健康建议")
