@@ -111,7 +111,7 @@ diaBP = st.number_input(
     "您的舒张压为:",
     min_value=0.0,     # 允许输入的最小值
     max_value=300.0,   # 允许输入的最大值
-    value=120,        # 默认显示的数值
+    value=120.0,        # 默认显示的数值
     step=0.1          # 每次加减的步长（整数）
 )
 
