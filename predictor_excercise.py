@@ -26,7 +26,7 @@ x_test = pd.read_csv('valdata.csv')
 feature_names =['male','BPMeds','prevalentStroke','age','prevalentHyp','diabetes','cigsPerDay','sysBP','glucose','totChol','diaBP','BMI']
 
 ######################## 2. Streamlit页面配置 ########################
-st.set_page_config(page_title="心脏病风险预测器", layouts="wide") 
+st.set_page_config(page_title="心脏病风险预测器", layout="wide") 
 st.title("心脏病风险概率预测器")
 st.markdown("请填写以下信息，点击预测获取心脏病风险评估结果")
 
