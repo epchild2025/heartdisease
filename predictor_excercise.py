@@ -18,7 +18,7 @@ import joblib
 model = joblib.load('xgb_model.pkl')
 
 # 加载测试数据(用于LIME解释器，确保x_test.csv与脚本同目录) 
-x_test = pd.read_csv('valdata.csv')
+x_test = pd.read_csv('lime_background.csv')
 
 # 定义特征名称(替换为业务相关列名，与编码规则对应) 
 feature_names = ['male','BPMeds','prevalentStroke','age','prevalentHyp','diabetes','cigsPerDay','sysBP','glucose','totChol','diaBP','BMI']
