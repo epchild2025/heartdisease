@@ -170,7 +170,7 @@ if st.button("预测"):
     fig, ax = plt.subplots(figsize=(8, 5))
 
     # 取第 0 个样本展示瀑布图
-    shap.plots.waterfall(shap_values[0], show=False)
+    shap.plots.waterfall(shap_values[0], max_display=12，show=False)
 
     # 将 matplotlib 图像传递给 Streamlit 显示
     st.pyplot(fig)
